@@ -68,7 +68,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 - **tRCD/tRP**
     - don't overtight these on b-die
-    - temperature dependent
+    - temperature sensitive
     - affects performance a lot
 
 - **tRAS**
@@ -91,7 +91,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 - **tRRD_S**
     - tRRD_S=4 for max RAM perf (if tFAW=16)
-    - affects performance/temperature a lot
+    - affects performance/RAM temperature a lot
     - setting this to 5 and higher is a huge RAM nerf
     - can “hide” instability if set too high
 
@@ -100,7 +100,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 - **tFAW**
     - tFAW (min value)=16 for max RAM perf
-    - affects performance/temps a lot (if tRRD=4)
+    - affects performance/RAM temperature a lot (if tRRD=4)
     - can “hide” instability if set too high
 
 - **tRFC**
@@ -111,7 +111,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 - **tREFI**
     - 16256/32512/65024 (tREFIx9=127)
     - 32640/43520/52224/65280 (tREFIx9=255)
-    - temperature dependent
+    - temperature sensitive
     - i strongly don't recommend going above 65k
 
 - **tREFIx9**
