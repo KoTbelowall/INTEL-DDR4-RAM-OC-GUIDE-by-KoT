@@ -149,7 +149,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 - **_dr=_dd**
 
-- **t_mr** = t (if MSI; where t = any timing)
+- **t_mr = t** (if MSI; where t = any timing)
 
 
 
@@ -182,9 +182,8 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 - your tight RAM timings might have error correction, higher timings perform better and have no stutters due to no error correction
 - finding the proper RAM timings takes time, but worth it in the end
 - measuring things can be done based on how it feels,but make sure you have proper monitor(low input lag/response time/high Hz) and clear mental state without any bias before doing so, confirm with actual benchmarks!
-
-Don't chase aida lowest latency number, tuning RAM is much more complex than that, you need to aim to find the best out of lowest latency possible without error correction AS WELL as without any clock/timing correction.
-Clock/timing correction of RAM happens when you drop some timing far below than its supposed to be, tFAW (Four activate window) or tRAS in most of the cases,just because it boots, works and gives you some lower latency in aida, doesnt mean its actually better in game, if you are on win10 use liblava fps example demo or something with really high FPS to see how reducing timings affects your FPS, look at 0.1% 1% lows, and frame consistency, a lot of people dumped their tRAS/tFAW just to chase 0.3ns RAM latency reduction, but having proper timings derived out of formulas will give you far better consistency/smoother feeling
+- Don't chase aida lowest latency number, tuning RAM is much more complex than that, you need to aim to find the best out of lowest latency possible without error correction AS WELL as without any clock/timing correction.
+- Clock/timing correction of RAM happens when you drop some timing far below than its supposed to be, tFAW (Four activate window) or tRAS in most of the cases,just because it boots, works and gives you some lower latency in aida, doesnt mean its actually better in game, if you are on win10 use liblava fps example demo or something with really high FPS to see how reducing timings affects your FPS, look at 0.1% 1% lows, and frame consistency, a lot of people dumped their tRAS/tFAW just to chase 0.3ns RAM latency reduction, but having proper timings derived out of formulas will give you far better consistency/smoother feeling
 
 
 
