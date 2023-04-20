@@ -52,7 +52,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 ## **Timing things and formulas:**
 
-Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for some people, they are proven over time and work best after all. I don’t recommend going below “possible” values. Overtight means the timing value that comes right after the value that had errors in RAM stress tests.
+Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for some people, they are proven over time and work best after all. I don’t recommend going below recommended/possible values. Overtight means the timing value that comes right after the value that had errors in RAM stress tests.
 
 
 
@@ -63,7 +63,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 - **tCWL** 
     - tCWL=tCL (or tCWL=tCL-1/+1 if tCL is uneven)
-    - possible values: 9/10/11/12/14/16/18/20
+    - possible values: 8/9/10/11/12/14/16/18/20
     - tRDWR dependent
 
 - **tRCD/tRP**
@@ -85,7 +85,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 - **tWR**
     - tWR=2*tRTP (ASUS boards: tRDPRE=tRTP, tWRPRE=4+tCWL+tWR)
     - don't overtight these
-    - possible tWR values: 20/24/28
+    - recommended tWR values: 20/24/28
     - can affect smoothness; doesn't affect performance much
 
 
@@ -96,7 +96,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
     - can “hide” instability if set too high
 
 - **tRRD_L**
-    - possible values: 6-8
+    - recommended values: 6-8
 
 - **tFAW**
     - tFAW (min value)=16 for max RAM perf
@@ -126,7 +126,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 - **tRDWR**
     - start point: auto-2
-    - possible values: 8/10/12/14/16/etc (i recommend using only even value)
+    - recommended values: 8/10/12/14/16/18/20/etc 
     -  _sg=_dg=_dr=_dd
     - tCWL dependent
     - don't overtight this
