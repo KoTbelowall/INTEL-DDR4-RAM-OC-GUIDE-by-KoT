@@ -82,7 +82,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
     - 3800cr1>4200cr2 / 4000cr2>3200cr1 in terms of performance
     - affects tRTL
 
-- **tWR**
+- **tWR/tRTP**
     - tWR=2*tRTP (ASUS boards: tRDPRE=tRTP, tWRPRE=4+tCWL+tWR)
     - don't overtight these
     - recommended tWR values: 20/24/28
