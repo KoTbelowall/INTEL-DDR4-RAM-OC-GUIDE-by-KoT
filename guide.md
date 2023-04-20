@@ -79,7 +79,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 - **Command Rate**
     - use CR1 (MSI: Real 1N) if possible
     - affects overall stability/mouse feeling/smoothness a lot
-    - 3800cr1>4200cr2 / 4000cr2>3200cr1
+    - 3800cr1>4200cr2 / 4000cr2>3200cr1 in terms of performance
     - affects tRTL
 
 - **tWR**
