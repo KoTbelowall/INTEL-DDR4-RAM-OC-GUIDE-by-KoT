@@ -41,10 +41,10 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 
 1) Disable unused RAM slots/powerdown/command rate support.
-2) Don't set unused timings to 1(0)/lowest possible, leave them at auto (also _sg/_dg/_dr/_dd sometimes bugged and mixed up).
+2) Don't set unused timings to lowest possible, leave them at auto (also _sg/_dg/_dr/_dd sometimes bugged and mixed up).
 3) Always gear 1 (11th gen or higher).
 4) 100:133 is easier for IMC and requires lower voltages, also can help push high freqs in some cases.
-5) Disable lucky mode (if MSI mobo; it should be disabled by default).
+5) Disable lucky mode (if MSI motherboard; it should be disabled by default).
 6) Check different bios versions/ucode updates in terms of RAM oc, some versions will allow better freq/stability/cr1/etc.
 7) General rule: don’t touch unused or unknown timings/settings. 
 
@@ -138,7 +138,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
     - change it via tWRRD_sg=6+tCWL+tWTR_L
 
 - **tWTR_S**
-    - possible values: 8-14
+    - possible values: 4-6
     - doesn't affect performance much
     - tCWL dependent
     - change it via tWRRD_dg=6+tCWL+tWTR_S
@@ -149,7 +149,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 - **_dr=_dd**
 
-- **t_mr = t** (if MSI; where t = any timing)
+- **t_MR = t** (if MSI motherboard; where t = any timing)
 
 
 
