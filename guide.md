@@ -171,7 +171,7 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 - tRC/tRCD/tRAS/tRP are worth far more than tCL for RAM OC
 - AIDA is a dogshit scam tool for CES reviewers, use IMLC(Intel Memory Latency Checker) and read the manual, its worth it
 - IMLC loaded latency is what matters (up to ~ 10GB/s bandwidth used) as well as L2 hit/L2 miss latency(uncore dependant)
-- AIDA latency numbers are useless metric for anything in real life and due to broken benchmark it doesn't even reflect changes for all timings ([reference](https://youtu.be/GHfXRUPLj1I))
+- AIDA latency numbers are useless metric for anything in real life and due to broken benchmark [it doesn't even reflect changes for all timings](https://www.youtube.com/watch?v=GHfXRUPLj1I)
 - true knowledge/info can only be found in scientific papers/research
 - everything you read on any overclocking forum or reddit is as wrong as it can possibly be
 - RAM latency and RAM temperature are the biggest bottlenecks in modern computer systems (by far, like 1:30000000000 over anything else)
