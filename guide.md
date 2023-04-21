@@ -154,7 +154,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 ## **RAM Stress Testing**
 
-I highly recommend running long memory tests with gpu load to create extra heat. You can use [Furmark](https://geeks3d.com/furmark/) or [MSI Combustor](https://www.geeks3d.com/furmark/kombustor/) for this. Recommended GPU temperatures for such testing are 60-70c. Additionally, you can reduce RAM fan(s) speed to create extra stress from higher temperatures.
+For additional stability i highly recommend running RAM stress tests with GPU load to create extra heat. You can use [Furmark](https://geeks3d.com/furmark/) or [MSI Combustor](https://www.geeks3d.com/furmark/kombustor/) for this. Recommended GPU temperatures for such testing are 60-70c. To create even more stress and higher temperatures, you might consider lowering the RAM fan(s) speed in addition to the GPU load.
 
 
 
@@ -189,7 +189,7 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 ## **Theories to discuss/test (for fps benchmark or something):**
 
 1) different tREFIx9/tREFI values 
-2) read to write burst gap
+2) [read to write burst gap](https://media.discordapp.net/attachments/903249065226149959/1098881770365132800/image.png)
 3) cr2>cr1 on bad 4 dimm boards (even if you can run cr1 with “no problems”)
 4) 100:100 vs 100:133 in terms of mouse feeling/smoothness
  
