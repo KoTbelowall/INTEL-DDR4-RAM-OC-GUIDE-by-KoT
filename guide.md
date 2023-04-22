@@ -62,7 +62,7 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 - **tCWL** 
     - tCWL=tCL (or tCWL=tCL-1/+1 if tCL is uneven)
-    - possible values: 8/9/10/11/12/14/16/18/20
+    - possible values: 9/10/11/12/14/16/18/20
     - tRDWR dependent
 
 - **tRCD/tRP**
