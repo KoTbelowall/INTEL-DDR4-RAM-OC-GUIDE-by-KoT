@@ -192,7 +192,7 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 2) [read to write burst gap](https://media.discordapp.net/attachments/903249065226149959/1098881770365132800/image.png)
 3) cr2>cr1 on bad 4 dimm boards (even if you can run cr1 with “no problems”)
 4) 100:100 vs 100:133 in terms of mouse feeling/smoothness
- 
+5) stability vs row hammer (prevention)/memory scrambler 
 
 
 ## **Links:**
