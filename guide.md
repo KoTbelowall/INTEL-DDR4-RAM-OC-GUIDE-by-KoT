@@ -104,9 +104,10 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
 
 - **tRFC**
     - start point: add +40-80 clock cycles (depends on freq/ICs) to the minimum boot value and round up to 16
+    - see [tRFC list by Reous](https://cdn.discordapp.com/attachments/903249065226149959/1101086029097734174/tRFC_v26.png)
     - don’t overtight this
     - don't go low on b-die
-
+    
 - **tREFI**
     - 16256/32512/65024 (tREFIx9=127)
     - 32640/43520/52224/65280 (tREFIx9=255)
