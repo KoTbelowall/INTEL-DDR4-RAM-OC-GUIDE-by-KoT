@@ -132,13 +132,13 @@ Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for s
     - don't overtight this
 
 - **tWTR_L**
-    - possible values: 8-14
+    - recommended values: 8-14
     - doesn't affect performance much
     - tCWL dependent
     - change it via tWRRD_sg=6+tCWL+tWTR_L
 
 - **tWTR_S**
-    - possible values: 4-6
+    - recommended values: 4-6
     - doesn't affect performance much
     - tCWL dependent
     - change it via tWRRD_dg=6+tCWL+tWTR_S
