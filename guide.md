@@ -51,7 +51,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 ## **Timing things and formulas:**
 
-Disclaimer: While some formulas may be wrong (tRAS for example)/”meme” for some people, they are proven over time and work best after all. I don’t recommend going below recommended/possible values. Overtight means the timing value that comes right after the value that had errors in RAM stress tests.
+**Disclaimer**: While some formulas may be wrong (tRAS for example)/”meme” for some people, they are proven over time and work best after all. I don’t recommend going below recommended/possible values. Overtight means the timing value that comes right after the value that had errors in RAM stress tests.
 
 
 
