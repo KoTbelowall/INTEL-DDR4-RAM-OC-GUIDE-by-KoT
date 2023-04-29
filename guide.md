@@ -46,9 +46,9 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 ## **BIOS setup** 
 
 
-- Disable unused RAM slots/powerdown/command rate support.
+- Disable unused RAM slots/PowerDown/Command Rate Support.
 
-    - Disable Self Refresh (highly recommend testing this; causes problems with rebooting)
+    - Disable SelfRefresh (highly recommend testing this; causes problems with rebooting)
 
 - General rule: don’t touch unused or unknown timings/settings. 
 
@@ -96,7 +96,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - affects tRTL
 
 - **tWR/tRTP**
-    - tWR=2*tRTP (ASUS boards: tRDPRE=tRTP, tWRPRE=4+tCWL+tWR)
+    - tWR=2*tRTP (tRDPRE=tRTP, tWRPRE=4+tCWL+tWR)
     - don't overtight these
     - recommended tWR values: 20/24/28
     - can affect smoothness; doesn't affect performance much
@@ -113,7 +113,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 - **tFAW**
     - tFAW (min value)=16 for max RAM perf
-      - i can suggest to test higher values (20-40), after RAM tuning with tFAW=16
+      - i can suggest to test higher values (20-40) after RAM tuning with tFAW=16
     - affects performance/RAM temperature a lot (if tRRD=4)
     - can “hide” instability if set too high
 
@@ -162,10 +162,10 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - if you're on the 10th gen or lower
     - don't overtight this
 
+- **t_MR = t** 
+    - if MSI motherboard; where t = any timing
+
 - **_dr=_dd**
-
-- **t_MR = t** (if MSI motherboard; where t = any timing)
-
 
 
 ## **RAM Stress Testing**
