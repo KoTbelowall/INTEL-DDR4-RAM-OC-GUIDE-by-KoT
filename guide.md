@@ -19,7 +19,7 @@ The available RAM OC guides are quite good, but they share the same problem. The
 ### **RAM OC impact** 
 
 
-Overclocking your RAM is worth considering, as it can lead to a [significant performance improvement](https://kingfaris.co.uk/blog/intel-ram-oc-impact). Even if your game's fps doesn't increase, you may experience better mouse consistency and smoothness. 
+Overclocking your RAM is worth considering, as it can lead to a [significant performance improvement](https://kingfaris.co.uk/blog/intel-ram-oc-impact). Even if your game's fps doesn't increase, you may experience better overall consistency, mouse responsiveness and smoothness.
 
 
 ## Physical setup
@@ -112,7 +112,8 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - recommended values: 6-8
 
 - **tFAW**
-    - tFAW (min value)=16 for max RAM perf; 
+    - tFAW (min value)=16 for max RAM perf
+      - i can suggest to test higher values (20-40), after RAM tuning with tFAW=16
     - affects performance/RAM temperature a lot (if tRRD=4)
     - can “hide” instability if set too high
 
