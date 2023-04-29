@@ -15,6 +15,13 @@ If you have any complaints, please contact me.
 The available RAM OC guides are quite good, but they share the same problem. These guides are authored by people who are not concerned enough about stability. The main goal in RAM overclocking for competitive gaming is 100% stability, not just maximum performance and it is important to always keep this in mind. Although unstable RAM can give better avg fps/benchmark results, it is not suitable for us, as it can increase input lag, degrade smoothness and cause stutters. As a result, most gamers who attempt RAM overclocking end up with an unstable system. The aim of this guide is to address this issue. Once you've read all the guides/forums ([links at the bottom](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/guide.md#links)) and gained a basic understanding of RAM overclocking, you can use this guide to correct your timings and other flaws. You can also check your RAM config before and after this guide against each other, testing by feel/fps/etc.
 
 
+
+### **RAM OC impact** 
+
+
+Overclocking your RAM is worth considering, as it can lead to a [significant performance improvement](https://kingfaris.co.uk/blog/intel-ram-oc-impact). Even if your game's fps doesn't increase, you may experience better mouse consistency and smoothness. 
+
+
 ## Physical setup
 
 
@@ -39,13 +46,20 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 ## **BIOS setup** 
 
 
-1) Disable unused RAM slots/powerdown/command rate support.
-2) Don't set unused timings to lowest possible, leave them at auto (also _sg/_dg/_dr/_dd sometimes bugged and mixed up).
-3) Always gear 1 (11th gen or higher).
-4) 100:133 is easier for IMC and requires lower voltages, also can help push high freqs in some cases.
-5) Disable lucky mode (if MSI motherboard; it should be disabled by default).
-6) Check different bios versions/ucode updates in terms of RAM oc, some versions will allow better freq/stability/cr1/etc.
-7) General rule: don’t touch unused or unknown timings/settings. 
+- Disable unused RAM slots/powerdown/command rate support.
+
+    - Disable Self Refresh (highly recommend testing this; causes problems with rebooting)
+
+- General rule: don’t touch unused or unknown timings/settings. 
+
+   - Don't set unused timings to lowest possible, leave them at auto (also _sg/_dg/_dr/_dd sometimes bugged and mixed up).
+
+- Always gear 1 (11th gen or higher).
+
+- 100:133 is easier for IMC and requires lower voltages, also can help push high freqs in some cases.
+
+- Check different bios versions/microcode updates in terms of RAM OC, some versions will allow better freq/stability/cr1/etc.
+
 
 
 
@@ -98,7 +112,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - recommended values: 6-8
 
 - **tFAW**
-    - tFAW (min value)=16 for max RAM perf
+    - tFAW (min value)=16 for max RAM perf; 
     - affects performance/RAM temperature a lot (if tRRD=4)
     - can “hide” instability if set too high
 
