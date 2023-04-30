@@ -56,7 +56,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 - Always gear 1 (11th gen or higher).
 
-- 100:133 is easier for IMC and requires lower voltages, also can help push high freqs in some cases.
+- 100:133 can be easier for IMC and requires lower voltages, also can help push high freqs in some cases.
 
 - Check different bios versions/microcode updates in terms of RAM OC, some versions will allow better freq/stability/cr1/etc.
 
