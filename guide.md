@@ -256,6 +256,8 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 
 * https://arxiv.org/pdf/2005.13121.pdf (row hammer)
 
+* https://www.mdpi.com/2072-666X/10/9/590
+
 * https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf
 
 * https://research.ece.cmu.edu/safari/pubs/kim-isca14.pdf
