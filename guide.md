@@ -219,8 +219,6 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 
 * https://cdn.discordapp.com/attachments/898074377407574018/1094783462755536926/DDR4_Memory_Guide_V1.0.0.pdf
 
-* https://github.com/RAMGuide/TheRamGuide-WIP-/blob/main/Advanced%20Timings.md 	
-
 #### Forums:
 
 * https://forums.overclockers.ru/viewtopic.php?f=4&t=578879
@@ -244,6 +242,8 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 * http://www.softnology.biz/pdf/DDR4-For-Dummies-4thEd-4AA6-6217ENW.pdf
 
 * https://www.youtube.com/watch?v=105IJiGbGsg (by buildzoid; check other “ram timings explained” vids)
+
+* https://github.com/RAMGuide/TheRamGuide-WIP-/blob/main/Advanced%20Timings.md 
 
 
 #### Papers/research:
