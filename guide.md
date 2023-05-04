@@ -86,8 +86,6 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 - **tRAS**
     - tRAS=tCL+tRCD+4
-    - don't overtight this
-    - affects hidden tRC
 
 - **Command Rate**
     - use CR1 (MSI: Real 1N) if possible
@@ -100,7 +98,6 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - don't overtight these
     - recommended tWR values: 20/24/28
     - can affect smoothness; doesn't affect performance much
-
 
 - **tRRD_S**
     - tRRD_S=4 for max RAM perf (if tFAW=16)
