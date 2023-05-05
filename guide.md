@@ -110,14 +110,17 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 - **tFAW**
     - tFAW (min value)=16 for max RAM perf
-      - i can suggest to test higher values (20-40) after RAM tuning with tFAW=16
+
+      - i suggest to test higher values (20-40) after RAM tuning with tFAW=16
+
     - affects performance/RAM temperature a lot (if tRRD=4)
     - can “hide” instability if set too high
 
 - **tRFC**
     - start point: add +15-30ns to the minimum boot value and round up to 16
     - see [tRFC list by Reous](https://cdn.discordapp.com/attachments/903249065226149959/1101086029097734174/tRFC_v26.png)
-    - don’t overtight this
+    - don’t overtight this 
+
       - don't go "lowest stable" on b-die
     
 - **tREFI**
