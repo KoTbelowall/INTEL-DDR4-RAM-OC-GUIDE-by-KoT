@@ -115,10 +115,10 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - can “hide” instability if set too high
 
 - **tRFC**
-    - start point: add +40-80 clock cycles (depends on freq/ICs) to the minimum boot value and round up to 16
+    - start point: add +15-30ns to the minimum boot value and round up to 16
     - see [tRFC list by Reous](https://cdn.discordapp.com/attachments/903249065226149959/1101086029097734174/tRFC_v26.png)
     - don’t overtight this
-    - don't go low on b-die
+    - don't go "lowest stable" on b-die
     
 - **tREFI**
     - 16256/32512/65024 (tREFIx9=127)
@@ -159,10 +159,8 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - if you're on the 10th gen or lower
     - don't overtight this
 
-- **t_MR = t** 
-    - if MSI motherboard; where t = any timing
-
-- **_dr=_dd**
+- **t_MR** (if MSI motherboard)
+    - t_MR = t
 
 
 ## **RAM Stress Testing**
