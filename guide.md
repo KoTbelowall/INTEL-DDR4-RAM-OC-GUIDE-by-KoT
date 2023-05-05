@@ -71,17 +71,23 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 - **tCL**
     - doesn't affect performance much
+
     - affects tRTL
+
     - i don't recommend lowering it if you are increasing the voltages too much to do so
 
 - **tCWL** 
     - tCWL=tCL (or tCWL=tCL-1/+1 if tCL is uneven)
+
     - possible values: 9/10/11/12/14/16/18/20
+
     - tRDWR dependent
 
 - **tRCD/tRP**
     - don't overtight these on b-die
+
     - temperature sensitive
+
     - affects performance a lot
 
 - **tRAS**
@@ -89,20 +95,29 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 - **Command Rate**
     - use CR1 (MSI: Real 1N) if possible
+
     - affects overall stability/mouse feeling/smoothness a lot
+
     - 3800cr1>4200cr2 / 4000cr2>3200cr1 in terms of performance
+
     - affects tRTL
 
 - **tWR/tRTP**
     - tWR=2*tRTP (tRDPRE=tRTP, tWRPRE=4+tCWL+tWR)
+
     - don't overtight these
+
     - recommended tWR values: 20/24/28
+
     - can affect smoothness; doesn't affect performance much
 
 - **tRRD_S**
     - tRRD_S=4 for max RAM perf (if tFAW=16)
+
     - affects performance/RAM temperature a lot
+
     - setting this to 5 and higher is a huge RAM nerf
+
     - can “hide” instability if set too high
 
 - **tRRD_L**
@@ -114,11 +129,14 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
       - i suggest to test higher values (20-40) after RAM tuning with tFAW=16
 
     - affects performance/RAM temperature a lot (if tRRD=4)
+
     - can “hide” instability if set too high
 
 - **tRFC**
     - start point: add +15-30ns to the minimum boot value and round up to 16
+
     - see [tRFC list by Reous](https://cdn.discordapp.com/attachments/903249065226149959/1101086029097734174/tRFC_v26.png)
+
     - don’t overtight this (especially don't go lowest "stable" on b-die)
     
 - **tREFI**
@@ -128,10 +146,12 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
       - 32640/43520/52224/65280 (tREFIx9=255)
 
     - temperature sensitive
+
     - i strongly don't recommend going above 65k
 
 - **tREFIx9**
     - tREFIx9=8xtREFI/1024 ([from intel datasheet](https://media.discordapp.net/attachments/898074377407574018/1075947541708931113/image.png))
+
     - 127 or 255 mostly
 
 - **tCCD_L**
@@ -142,25 +162,36 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 - **tRDWR**
     - start point: auto-2
+
     - recommended values: 8/10/12/14/16/18/20/etc 
+
     -  _sg=_dg=_dr=_dd
+
     - tCWL dependent
+
     - don't overtight this
 
 - **tWTR_L**
     - recommended values: 8-14
+
     - doesn't affect performance much
+
     - tCWL dependent
+
     - change it via tWRRD_sg=6+tCWL+tWTR_L
 
 - **tWTR_S**
     - recommended values: 4-6
+
     - doesn't affect performance much
+
     - tCWL dependent
+
     - change it via tWRRD_dg=6+tCWL+tWTR_S
 
 - **tIOL**
     - if you're on the 10th gen or lower
+
     - don't overtight this
 
 - **t_MR** (if MSI motherboard)
