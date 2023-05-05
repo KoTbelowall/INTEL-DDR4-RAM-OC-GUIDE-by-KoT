@@ -122,8 +122,11 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - don’t overtight this (especially don't go lowest "stable" on b-die)
     
 - **tREFI**
-    - 16256/32512/65024 (tREFIx9=127)
-    - 32640/43520/52224/65280 (tREFIx9=255)
+    - any value applies, however i recommend these:
+
+      - 16256/32512/65024 (tREFIx9=127)
+      - 32640/43520/52224/65280 (tREFIx9=255)
+
     - temperature sensitive
     - i strongly don't recommend going above 65k
 
