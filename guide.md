@@ -118,7 +118,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - start point: add +15-30ns to the minimum boot value and round up to 16
     - see [tRFC list by Reous](https://cdn.discordapp.com/attachments/903249065226149959/1101086029097734174/tRFC_v26.png)
     - don’t overtight this
-    - don't go "lowest stable" on b-die
+      - don't go "lowest stable" on b-die
     
 - **tREFI**
     - 16256/32512/65024 (tREFIx9=127)
