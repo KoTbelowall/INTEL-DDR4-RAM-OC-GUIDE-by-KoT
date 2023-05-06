@@ -167,7 +167,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
     -  _sg=_dg=_dr=_dd
 
-    - tCWL dependent
+    - tCWL dependent (inverse relationship, higher tRDWR allows lower tCWL in a nutshell)
 
     - don't overtight this
 
