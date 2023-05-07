@@ -38,8 +38,9 @@ Before you begin, it's important to understand that you can't overclock your mem
 #### **Correct RAM installation**
 
 
-1) On most modern 4 dimm boards, [the best slots for installing RAM are 2 and 4](https://media.discordapp.net/attachments/898074377407574018/951203012376936458/unknown.png?width=1440&height=599) (but you can always check the manual and sometimes see [hints on the motherboard itself](https://cdn.discordapp.com/attachments/903249065226149959/1102246713286197318/image.png)).
-2) Proper installation of RAM sticks to each other; check how RAM is trained at different freqs (3200MHz+; 2-3 reboots at the same frequency), then write down these values and swap the RAM sticks with each other.
+1) Make sure that there is no dust/hair/etc in the DIMM slots, as well as on the RAM itself there is no any dirt on the pins.
+2) On most modern 4 DIMM boards, [the best slots for installing RAM are 2 and 4](https://media.discordapp.net/attachments/898074377407574018/951203012376936458/unknown.png?width=1440&height=599) (but you can always check the manual and sometimes see [hints on the motherboard itself](https://cdn.discordapp.com/attachments/903249065226149959/1102246713286197318/image.png)).
+3) Proper installation of RAM sticks to each other; check how RAM is trained at different freqs (3200MHz+; 2-3 reboots at the same frequency), then write down these values and swap the RAM sticks with each other.
 Do the same and compare the results (on the same freqs). The option where tRTLs differ by a smaller value (i.e. **67/68** vs 67/69 for example) is correct and you should use it. 
 
 
@@ -236,7 +237,7 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 
 1) different tREFIx9/tREFI values 
 2) [read to write burst gap](https://media.discordapp.net/attachments/903249065226149959/1098881770365132800/image.png)
-3) cr2>cr1 on bad 4 dimm boards (even if you can run cr1 with “no problems”)
+3) cr2>cr1 on bad 4 DIMM boards (even if you can run cr1 with “no problems”)
 4) 100:100 vs 100:133 in terms of mouse feeling/smoothness
 5) stability vs row hammer (prevention)/memory scrambler 
 
