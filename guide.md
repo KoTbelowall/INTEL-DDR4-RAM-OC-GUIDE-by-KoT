@@ -38,7 +38,7 @@ Before you begin, it's important to understand that you can't overclock your mem
 #### **Correct RAM installation**
 
 
-1) Make sure that there is no dust/hair/etc in the DIMM slots, as well as on the RAM itself there is no any dirt on the pins, because poor contact can degrade signal integrity = degrade RAM overclocking.
+1) Make sure that there is no dust/hair/etc in the DIMM slots, as well as on the RAM itself there is no any d[irt on the pins](https://cdn.discordapp.com/attachments/903249065226149959/1106262302484865154/image.png), because poor contact can degrade signal integrity = degrade RAM overclocking.
 2) On most modern 4 DIMM boards, [the best slots for installing RAM are 2 and 4](https://media.discordapp.net/attachments/898074377407574018/951203012376936458/unknown.png?width=1440&height=599) (but you can always check the manual and sometimes see [hints on the motherboard itself](https://cdn.discordapp.com/attachments/903249065226149959/1102246713286197318/image.png)).
 3) Proper installation of RAM sticks to each other; check how RAM is trained at different freqs (3200MHz+; 2-3 reboots at the same frequency), then write down these values and swap the RAM sticks with each other.
 Do the same and compare the results (on the same freqs). The option where tRTLs differ by a smaller value (i.e. **67/68** vs 67/69 for example) is correct and you should use it. 
