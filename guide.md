@@ -120,18 +120,24 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - setting this to 5 and higher is a huge RAM nerf
 
     - can “hide” instability if set too high
+    
+    - can't be lower than 4
 
 - **tRRD_L**
     - recommended values: 6-8
 
+    - can't be lower than 4
+
 - **tFAW**
-    - tFAW (min value)=16 for max RAM perf
+    - tFAW=16 for max RAM perf
 
       - i suggest to test higher values (20-40) after RAM tuning with tFAW=16
 
     - affects performance/RAM temperature a lot (if tRRD=4)
 
     - can “hide” instability if set too high
+   
+    - can't be lower than 16
 
 - **tRFC**
     - start point: add +15-30ns to the minimum boot value and round up to 16
