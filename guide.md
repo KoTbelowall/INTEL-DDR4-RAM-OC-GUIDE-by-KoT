@@ -162,7 +162,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - 127 or 255 mostly
 
 - **tCCD_L**
-    - tCCD_L=tRDRD_sg=tWRWR_sg=_dr=_dd
+    - tCCD_L=tRDRD_sg=tWRWR_sg(=_dr=_dd)
 
 - **tCCD_S**
     - tCCD_S=tRDRD_dg=tWRWR_dg=4 (setting this to 5 and higher is a huge RAM nerf)
