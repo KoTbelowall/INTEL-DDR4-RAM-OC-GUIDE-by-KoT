@@ -95,7 +95,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - tRAS=tCL+tRCD+4
 
 - **Command Rate**
-    - use CR1 (MSI: Real 1N) if possible
+    - use CR1 (MSI: Real 1N) if possible (which can't be said about dual rank at high frequencies, there you most likely want cr2 in most cases)
 
     - affects overall stability/mouse feeling/smoothness a lot
 
@@ -201,8 +201,11 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
     - don't overtight this
 
+- **tRTL**
+    - if it differs by more than 2, you are probably unstable
+
 - **t_MR** (if MSI motherboard)
-    - t_MR = t
+    - t_MR = t (for example: tCWL=tCWL_MR)
 
 
 ## **RAM Stress Testing**
@@ -211,7 +214,7 @@ For additional stability i highly recommend running RAM stress tests with GPU lo
 
 
 
-## **Useful quotes:**
+## **Useful info/quotes:**
 
 - stability>frequency>timings
 - stable without fan > stable only with fan
