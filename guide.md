@@ -28,7 +28,7 @@ Overclocking your RAM is worth considering, as it can lead to a [significant per
 #### RAM cooling
 
 
-Before you begin, it's important to understand that you can't overclock your RAM without proper cooling, since [the temperature changes can strongly impact the RAM stability]((https://github.com/BoringBoredom/PC-Optimization-Hub#temperature)) due to its capacitor-based structure.
+Before you begin, it's important to understand that you can't overclock your RAM without proper cooling, since [the temperature changes can strongly impact the RAM stability](https://github.com/BoringBoredom/PC-Optimization-Hub#temperature) due to its capacitor-based structure.
 
 1) Remove the heat spreaders if present, as this [significantly degrades the temperatures of the RAM](https://media.discordapp.net/attachments/898074377407574018/936765203243237386/unknown.png). 
 2) Be sure to install one or more fans so that they blow over the RAM chips (even bad fans are better than no fans at all; 140mm is preferred; [example of temp reduction](https://media.discordapp.net/attachments/898074377407574018/1011084065409081355/unknown-114.png)).
