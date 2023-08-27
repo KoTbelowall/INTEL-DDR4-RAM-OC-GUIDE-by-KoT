@@ -245,7 +245,7 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 
 ## **Theories to discuss/test (for fps benchmark or something):**
 
-1) [different tREFIx9/tREFI values](https://cdn.discordapp.com/attachments/867774526196678656/1145333750759178360/image.png) (tREFIx9=(tREFI+1)/1024)
+1) [different tREFIx9/tREFI values](https://cdn.discordapp.com/attachments/867774526196678656/1145338856103755776/image.png) (tREFIx9=(tREFI+1)/1024)
 2) [read to write burst gap](https://media.discordapp.net/attachments/903249065226149959/1098881770365132800/image.png)
 3) cr2>cr1 on bad 4 DIMM boards (even if you can run cr1 with “no problems”)
 4) 100:100 vs 100:133 in terms of mouse feeling/smoothness
