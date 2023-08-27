@@ -28,7 +28,7 @@ Overclocking your RAM is worth considering, as it can lead to a [significant per
 #### RAM cooling
 
 
-Before you begin, it's important to understand that you can't overclock your memory without proper cooling, since the memory consists of capacitors, [which are strongly affected by temperature](https://github.com/BoringBoredom/PC-Optimization-Hub#temperature). 
+Before you begin, it's important to understand that you can't overclock your RAM without proper cooling, since [the temperature changes can strongly impact the RAM stability]((https://github.com/BoringBoredom/PC-Optimization-Hub#temperature)) due to its capacitor-based structure.
 
 1) Remove the heat spreaders if present, as this [significantly degrades the temperatures of the RAM](https://media.discordapp.net/attachments/898074377407574018/936765203243237386/unknown.png). 
 2) Be sure to install one or more fans so that they blow over the RAM chips (even bad fans are better than no fans at all; 140mm is preferred; [example of temp reduction](https://media.discordapp.net/attachments/898074377407574018/1011084065409081355/unknown-114.png)).
@@ -119,7 +119,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
     - setting this to 5 and higher is a huge RAM nerf
 
-    - can “hide” instability if set too high
+    - can “hide” instability if set too high (because ram is getting too slow)
     
     - can't be lower than 4
 
@@ -135,7 +135,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
     - affects performance/RAM temperature a lot (if tRRD=4)
 
-    - can “hide” instability if set too high
+    - can “hide” instability if set too high (because ram is getting too slow)
    
     - can't be lower than 16
 
