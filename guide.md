@@ -154,7 +154,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 - **tREFIx9**
     - tREFIx9=8xtREFI/1024 ([from intel datasheet](https://media.discordapp.net/attachments/898074377407574018/1075947541708931113/image.png))
 
-    - tREFIx9=(tREFI+1)/1024 (from anta777/me, can be hit or miss, TEST IT)
+    - tREFIx9=(tREFI+1)/1024 (from anta777/me; can be hit or miss, test it; [some concept](https://cdn.discordapp.com/attachments/867774526196678656/1145338856103755776/image.png))
 
 - **tCCD_L**
     - tCCD_L=tRDRD_sg=tWRWR_sg(=_dr=_dd)
