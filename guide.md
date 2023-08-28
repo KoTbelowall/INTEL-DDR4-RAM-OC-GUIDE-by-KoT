@@ -40,7 +40,7 @@ Before you begin, it's important to understand that you can't overclock your RAM
 
 1) Make sure that there is no dust/hair/etc in the DIMM slots, as well as on the RAM itself there is no any [dirt on the pins](https://cdn.discordapp.com/attachments/903249065226149959/1106262302484865154/image.png), because poor contact can degrade signal integrity = degrade RAM overclocking.
 2) On most modern 4 DIMM boards, [the best slots for installing RAM are 2 and 4](https://media.discordapp.net/attachments/898074377407574018/951203012376936458/unknown.png?width=1440&height=599) (but you can always check the manual and sometimes see [hints on the motherboard itself](https://cdn.discordapp.com/attachments/903249065226149959/1102246713286197318/image.png)).
-3) Proper installation of RAM sticks to each other; check how RAM is trained at different freqs (3200MHz+; 2-3 reboots at the same frequency), then write down these values and swap the RAM sticks with each other.
+3) Proper installation of RAM sticks to each other; check how RAM is trained at different freqs (3200MHz+; 2-3 reboots at the same frequency), then write down these values and swap RAM sticks with each other.
 Do the same and compare the results (on the same freqs). The option where tRTLs differ by a smaller value (i.e. **67/68** vs 67/69 for example) is correct and you should use it. 
 
 
@@ -53,7 +53,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 - General rule: don’t touch unused or unknown timings/settings. 
 
-   - Don't set unused timings to lowest possible, leave them at auto (also _sg/_dg/_dr/_dd sometimes bugged and mixed up).
+   - Don't set unused timings to the lowest possible, leave them at auto (also _sg/_dg/_dr/_dd sometimes bugged and mixed up).
 
 - Always gear 1 (11th gen or higher).
 
@@ -66,7 +66,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 ## **Timing things and formulas:**
 
-**Disclaimer**: While some formulas may be wrong (tRAS for example)/”meme” for some people, they are proven over time and work best after all. I don’t recommend going below recommended/possible values. Overtight means the timing value that comes right after the value that had errors in RAM stress tests.
+**Disclaimer**: While some formulas may be wrong (tRAS for example)/”meme” for some people, they are proven over time and work best after all. I don’t recommend going below recommended/possible values. Overtighten means the timing value that comes right after the value that had errors in RAM stress tests.
 
 
 
@@ -85,7 +85,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - tRDWR dependent
 
 - **tRCD/tRP**
-    - don't overtight these on b-die
+    - don't overtighten these on b-die
 
     - temperature sensitive
 
@@ -106,14 +106,14 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 - **tWR/tRTP**
     - tWR=2*tRTP (tRDPRE=tRTP, tWRPRE=4+tCWL+tWR)
 
-    - don't overtight these
+    - don't overtighten these
 
     - recommended tWR values: 20/24/28
 
     - can affect smoothness; doesn't affect performance much
 
 - **tRRD_S**
-    - tRRD_S=4 for max RAM perf (if tFAW=16)
+    - tRRD_S=4 for the max RAM performance (if tFAW=16)
 
     - affects performance/RAM temperature a lot
 
@@ -129,9 +129,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - can't be lower than 4
 
 - **tFAW**
-    - tFAW=16 for max RAM perf
-
-      - i suggest to test higher values (20-40) after RAM tuning with tFAW=16
+    - tFAW=16 for the max RAM performance
 
     - affects performance/RAM temperature a lot (if tRRD=4)
 
@@ -144,13 +142,10 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
     - see [tRFC list by Reous](https://cdn.discordapp.com/attachments/903249065226149959/1101086029097734174/tRFC_v26.png)
 
-    - don’t overtight this (especially don't go lowest "stable" on b-die)
+    - don’t overtighten this (especially don't go lowest "stable" on b-die)
     
 - **tREFI**
-    - any value applies, however i recommend these:
-
-      - 16256/32512/65024 (tREFIx9=127)
-      - 32640/43520/52224/65280 (tREFIx9=255)
+    - any value applies
 
     - temperature sensitive
 
@@ -159,7 +154,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 - **tREFIx9**
     - tREFIx9=8xtREFI/1024 ([from intel datasheet](https://media.discordapp.net/attachments/898074377407574018/1075947541708931113/image.png))
 
-    - 127 or 255 mostly
+    - tREFIx9=(tREFI+1)/1024 (from anta777/me, can be hit or miss, TEST IT)
 
 - **tCCD_L**
     - tCCD_L=tRDRD_sg=tWRWR_sg(=_dr=_dd)
@@ -176,7 +171,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
     - tCWL dependent (inverse relationship, higher tRDWR allows lower tCWL in a nutshell)
 
-    - don't overtight this
+    - don't overtighten this
 
 - **tWTR_L**
     - recommended values: 8-14
@@ -199,7 +194,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 - **tIOL**
     - if you're on the 10th gen or lower
 
-    - don't overtight this
+    - don't overtighten this
 
 - **tRTL**
     - if it differs by more than 2, you are probably unstable
@@ -210,7 +205,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
 ## **RAM Stress Testing**
 
-For additional stability i highly recommend running RAM stress tests with GPU load to create extra heat. You can use [Furmark](https://geeks3d.com/furmark/) or [MSI Combustor](https://www.geeks3d.com/furmark/kombustor/) for this. Recommended GPU temperatures for such testing are 60-70c. To create even more stress and higher temperatures, you might consider lowering the RAM fan(s) speed in addition to the GPU load.
+For additional stability, i highly recommend running RAM stress tests with GPU load to create extra heat. You can use [Furmark](https://geeks3d.com/furmark/) or [MSI Combustor](https://www.geeks3d.com/furmark/kombustor/) for this. Recommended GPU temperatures for such testing are 60-70c. To create even more stress and higher temperatures, you might consider lowering the RAM fan(s) speed in addition to the GPU load.
 
 
 
