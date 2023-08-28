@@ -216,6 +216,7 @@ For additional stability i highly recommend running RAM stress tests with GPU lo
 
 ## **Useful info/quotes:**
 
+- if you are going to use cr2 if possible make cr1 stable first and only then use cr2
 - stability>frequency>timings
 - stable without fan > stable only with fan
 - XMP doesn't guarantee stability
