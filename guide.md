@@ -211,6 +211,8 @@ For additional stability, i highly recommend running RAM stress tests with GPU l
 
 ## **Useful info/quotes:**
 
+- most people and i mean even 99% of latency retards just chase highest numbers printed on screen when its all heavy ECCing
+- most mobos are engineered for 3200XMP and anything above that is not accounted for except for "world record" marketing, since 99% of ppl dont even disable C states mobos arent engineered for that
 - if you are going to use cr2 if possible make cr1 stable first and only then use cr2
 - stability>frequency>timings
 - stable without fan > stable only with fan
