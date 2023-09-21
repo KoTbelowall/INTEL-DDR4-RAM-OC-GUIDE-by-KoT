@@ -80,7 +80,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 - **tCWL** 
     - tCWL=tCL (or tCWL=tCL-1/+1 if tCL is uneven)
 
-    - possible values: 9/10/11/12/14/16/18/20
+    - possible values: 9/10/11/12/14//18/20
 
     - tRDWR dependent
 
@@ -138,7 +138,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
     - can't be lower than 16
 
 - **tRFC**
-    - start point: add +15-30ns to the minimum boot value and round up to 16
+    - start point: add +15-30ns to the minimum boot value and round up to a multiple of 16
 
     - see [tRFC list by Reous](https://cdn.discordapp.com/attachments/903249065226149959/1101086029097734174/tRFC_v26.png)
 
