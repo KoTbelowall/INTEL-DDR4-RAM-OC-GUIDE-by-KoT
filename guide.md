@@ -80,7 +80,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 - **tCWL** 
     - tCWL=tCL (or tCWL=tCL-1/+1 if tCL is uneven)
 
-    - possible values: 9/10/11/12/14//18/20
+    - possible values: 9/10/11/12/14/16/18/20
 
     - tRDWR dependent
 
