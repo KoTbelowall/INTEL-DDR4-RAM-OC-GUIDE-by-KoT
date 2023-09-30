@@ -149,7 +149,7 @@ Do the same and compare the results (on the same freqs). The option where tRTLs 
 
     - temperature sensitive
 
-    - i strongly don't recommend going above 65k
+    - i strongly don't recommend going above 65k (if you're on the 12th gen or higher)
 
 - **tREFIx9**
     - tREFIx9=8xtREFI/1024 ([from intel datasheet](https://media.discordapp.net/attachments/898074377407574018/1075947541708931113/image.png))
