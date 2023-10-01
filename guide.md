@@ -1,4 +1,4 @@
-# INTEL DDR4 RAM OC GUIDE by KoT#3421
+# INTEL DDR4 RAM OC GUIDE by KoT
 
 
 ### **Introduction** 
