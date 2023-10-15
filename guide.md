@@ -55,7 +55,7 @@ Do the same and compare the results (on the same freqs). Сorrect RAM sticks pos
 
    - Don't set unused timings to the lowest possible, leave them at auto (also _sg/_dg/_dr/_dd sometimes bugged and mixed up).
 
-- Always gear 1 (11th gen or higher).
+- Always gear 1 (11th gen or higher), since gear 2 is significantly worse in terms of latency.
 
 - 100:133 can be easier for IMC and requires lower voltages, also can help push high freqs in some cases.
 
