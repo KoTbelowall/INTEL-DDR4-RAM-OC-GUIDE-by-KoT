@@ -192,12 +192,14 @@ Do the same and compare the results (on the same freqs). Сorrect RAM sticks pos
     - change it via tWRRD_dg=6+tCWL+tWTR_S
 
 - **tIOL**
+    - may indicate instability if it differs by more than 1
+
     - if you're on the 10th gen or lower
 
     - don't overtighten this
 
 - **tRTL**
-    - if it differs by more than 2, you are probably unstable
+    - may indicate instability if it differs by more than 2
 
 - **t_MR** (if MSI motherboard)
     - t_MR = t (for example: tCWL=tCWL_MR)
