@@ -258,7 +258,7 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 
 * https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#table-of-contents
 
-* https://cdn.discordapp.com/attachments/328891236918493184/1135370878906028112/DDR4_Guide_V1.2.0.pdf
+* https://cdn.discordapp.com/attachments/328891236918493184/1172922515962724444/DDR4_Guide_V1.2.1.pdf
 
 #### Forums:
 
