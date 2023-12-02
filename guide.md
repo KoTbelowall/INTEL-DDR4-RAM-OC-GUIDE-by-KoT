@@ -138,7 +138,7 @@ Do the same and compare the results (on the same freqs). Сorrect RAM sticks pos
     - can't be lower than 16
 
 - **tRFC**
-    - start point: add +15-30ns to the minimum boot value and round up to a multiple of 16
+    - start point: add +20ns to the minimum boot value and round up to a multiple of 16 (in clock cycles)
 
     - see [tRFC list by Reous](https://cdn.discordapp.com/attachments/903249065226149959/1101086029097734174/tRFC_v26.png)
 
