@@ -108,7 +108,7 @@ Do the same and compare the results (on the same freqs). Сorrect RAM sticks pos
 
     - don't overtighten these
 
-    - recommended tWR values: 20/24/28
+    - recommended tWR values: 20/24/28 (i dont recommend going below 10ns with tWR, AMD says [values < 8ns can quickly corrupt data stored in RAM](https://cdn.discordapp.com/attachments/903249065226149959/1196930436333572207/image.png?ex=65b96b55&is=65a6f655&hm=9863ef2b632b8cf9af8b5a425539609c457469895c35521b578df6c1344769b0&))
 
     - can affect smoothness; doesn't affect performance much
 
