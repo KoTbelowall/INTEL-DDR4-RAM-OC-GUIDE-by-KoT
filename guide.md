@@ -19,7 +19,7 @@ The available RAM OC guides are quite good, but they share the same problem. The
 ### **RAM OC impact** 
 
 
-Overclocking your RAM is worth considering, as it can lead to a [significant performance improvement](https://kingfaris.co.uk/blog/intel-ram-oc-impact). Even if your game's fps doesn't increase, you may experience better overall consistency, mouse responsiveness and smoothness.
+Overclocking your RAM is worth considering, as it can lead to a [significant performance improvement](https://kingfaris.co.uk/blog/intel-ram-oc-impact). Even if your game's fps doesn't increase, you may experience better overall consistency, mouse responsiveness and in-game smoothness.
 
 
 ## Physical setup
@@ -97,7 +97,7 @@ Do the same and compare the results (on the same freqs). Сorrect RAM sticks pos
 - **Command Rate**
     - use CR1 (MSI: Real 1N) if possible (which can't be said about dual rank at high frequencies, there you most likely want cr2 in most cases)
 
-    - affects overall stability/mouse feeling/smoothness a lot
+    - affects overall stability/mouse feeling/in-game smoothness a lot
 
     - 3800cr1>4200cr2 / 4000cr2>3200cr1 in terms of performance
 
@@ -110,7 +110,7 @@ Do the same and compare the results (on the same freqs). Сorrect RAM sticks pos
 
     - recommended tWR values: 20/24/28 (i dont recommend going below 10ns with tWR, AMD says [values < 8ns can quickly corrupt data stored in RAM](https://cdn.discordapp.com/attachments/903249065226149959/1196930436333572207/image.png?ex=65b96b55&is=65a6f655&hm=9863ef2b632b8cf9af8b5a425539609c457469895c35521b578df6c1344769b0&))
 
-    - can affect smoothness; doesn't affect performance much
+    - can affect in-game smoothness; doesn't affect performance much
 
 - **tRRD_S**
     - tRRD_S=4 for the max RAM performance (if tFAW=16)
