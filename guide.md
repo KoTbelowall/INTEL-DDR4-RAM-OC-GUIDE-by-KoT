@@ -313,6 +313,8 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 
 * https://users.ece.cmu.edu/~omutlu/pub/dram-access-refresh-parallelization_hpca14.pdf
 
+* https://arxiv.org/pdf/2206.09999v1.pdf
+
 
 
 
