@@ -38,7 +38,7 @@ Before you begin, it's important to understand that you can't overclock your RAM
 #### **Correct RAM installation**
 
 
-1) Make sure that there is no dust/hair/etc in the DIMM slots, as well as on the RAM itself there is no any [dirt on the pins](https://cdn.discordapp.com/attachments/903249065226149959/1106262302484865154/image.png), because poor contact can degrade signal integrity = degrade RAM overclocking.
+1) Make sure that there is no dust/hair/etc in the DIMM slots, as well as on the RAM itself there is no any [dirt on the pins](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/cleanram.png), because poor contact can degrade signal integrity = degrade RAM overclocking.
 2) On most modern 4 DIMM boards, [the best slots for installing RAM are 2 and 4](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/dimmproper.png) (but you can always check the manual and sometimes see [hints on the motherboard itself](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/dimm.png)).
 3) Proper installation of RAM sticks to each other; check how RAM is trained at different freqs, then write down these values and swap RAM sticks with each other.
 Do the same and compare the results (on the same freqs). Сorrect RAM sticks positioning will give a smaller difference in tRTL (i.e. **67/68** vs 67/69 for example) and you should use it. This "effect" can happen at different frequencies as it depends on ram sticks and motherboard, so check everything from 2666Mhz to max frequency you can make; if possible, check CR2 too if the results are not clear on CR1; 2-3 reboots at the same frequency.
