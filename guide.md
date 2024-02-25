@@ -30,8 +30,8 @@ Overclocking your RAM is worth considering, as it can lead to a [significant per
 
 Before you begin, it's important to understand that you can't overclock your RAM without proper cooling, since [the temperature changes can strongly impact the RAM stability](https://github.com/BoringBoredom/PC-Optimization-Hub#temperature) due to its capacitor-based structure.
 
-1) Remove the heat spreaders if present, as this [significantly degrades the temperatures of the RAM](https://media.discordapp.net/attachments/898074377407574018/936765203243237386/unknown.png). 
-2) Be sure to install one or more fans so that they blow over the RAM chips (even bad fans are better than no fans at all; 140mm is preferred; [example of temp reduction](https://media.discordapp.net/attachments/898074377407574018/1011084065409081355/unknown-114.png)).
+1) Remove the heat spreaders if present, as this [significantly degrades the temperatures of the RAM](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/heatspreader.png). 
+2) Be sure to install one or more fans so that they blow over the RAM chips (even bad fans are better than no fans at all; 140mm is preferred; [example of temp reduction](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/ramfans.png)).
 3) Disable any RGB/lightning on your RAM as it generates heat and creates interference.
 
 
@@ -39,7 +39,7 @@ Before you begin, it's important to understand that you can't overclock your RAM
 
 
 1) Make sure that there is no dust/hair/etc in the DIMM slots, as well as on the RAM itself there is no any [dirt on the pins](https://cdn.discordapp.com/attachments/903249065226149959/1106262302484865154/image.png), because poor contact can degrade signal integrity = degrade RAM overclocking.
-2) On most modern 4 DIMM boards, [the best slots for installing RAM are 2 and 4](https://media.discordapp.net/attachments/898074377407574018/951203012376936458/unknown.png?width=1440&height=599) (but you can always check the manual and sometimes see [hints on the motherboard itself](https://cdn.discordapp.com/attachments/903249065226149959/1102246713286197318/image.png)).
+2) On most modern 4 DIMM boards, [the best slots for installing RAM are 2 and 4](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/dimmproper.png) (but you can always check the manual and sometimes see [hints on the motherboard itself](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/dimm.png)).
 3) Proper installation of RAM sticks to each other; check how RAM is trained at different freqs, then write down these values and swap RAM sticks with each other.
 Do the same and compare the results (on the same freqs). Сorrect RAM sticks positioning will give a smaller difference in tRTL (i.e. **67/68** vs 67/69 for example) and you should use it. This "effect" can happen at different frequencies as it depends on ram sticks and motherboard, so check everything from 2666Mhz to max frequency you can make; if possible, check CR2 too if the results are not clear on CR1; 2-3 reboots at the same frequency.
 
@@ -108,7 +108,7 @@ Do the same and compare the results (on the same freqs). Сorrect RAM sticks pos
 
     - don't overtighten these
 
-    - recommended tWR values: 20/24/28 (i dont recommend going below 10ns with tWR, AMD says [values < 8ns can quickly corrupt data stored in RAM](https://cdn.discordapp.com/attachments/903249065226149959/1196930436333572207/image.png?ex=65b96b55&is=65a6f655&hm=9863ef2b632b8cf9af8b5a425539609c457469895c35521b578df6c1344769b0&))
+    - recommended tWR values: 20/24/28 (i dont recommend going below 10ns with tWR, AMD says [values < 8ns can quickly corrupt data stored in RAM](https://web.archive.org/web/20201108001243/https://community.amd.com/community/gaming/blog/2017/05/25/community-update-4-lets-talk-dram))
 
     - can affect in-game smoothness; doesn't affect performance much
 
@@ -140,7 +140,7 @@ Do the same and compare the results (on the same freqs). Сorrect RAM sticks pos
 - **tRFC**
     - start point: add +20ns to the minimum boot value and round up to a multiple of 16 (in clock cycles)
 
-    - see [tRFC list by Reous](https://cdn.discordapp.com/attachments/903249065226149959/1101086029097734174/tRFC_v26.png)
+    - see [tRFC list by Reous](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/tRFC_v26.png)
 
     - don’t overtighten this (especially don't go lowest "stable" on b-die)
     
@@ -152,9 +152,9 @@ Do the same and compare the results (on the same freqs). Сorrect RAM sticks pos
     - i strongly don't recommend going above 65k (if you're on the 12th gen or higher)
 
 - **tREFIx9**
-    - tREFIx9=8xtREFI/1024 ([from intel datasheet](https://media.discordapp.net/attachments/898074377407574018/1075947541708931113/image.png))
+    - tREFIx9=8xtREFI/1024 ([from intel datasheet](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/inteltrefix9.jpg))
 
-    - tREFIx9=(tREFI+1)/1024 (from anta777/me; can be hit or miss, test it; [some concept](https://cdn.discordapp.com/attachments/867774526196678656/1145338856103755776/image.png))
+    - tREFIx9=(tREFI+1)/1024 (from anta777/me; can be hit or miss, test it; [some concept](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/trefitheory.png))
 
 - **tCCD_L**
     - tCCD_L=tRDRD_sg=tWRWR_sg(=_dr=_dd)
