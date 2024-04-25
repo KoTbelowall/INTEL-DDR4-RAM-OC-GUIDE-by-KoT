@@ -245,11 +245,10 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 
 ## **Theories to discuss/test (for fps benchmark or something):**
 
-1) [different tREFIx9/tREFI values](https://cdn.discordapp.com/attachments/867774526196678656/1145338856103755776/image.png) (tREFIx9=(tREFI+1)/1024)
-2) [read to write burst gap](https://media.discordapp.net/attachments/903249065226149959/1098881770365132800/image.png)
-3) cr2>cr1 on bad 4 DIMM boards (even if you can run cr1 with “no problems”)
-4) 100:100 vs 100:133 in terms of mouse feeling/smoothness
-5) stability vs row hammer (prevention)/memory scrambler 
+1) [different tREFIx9/tREFI values](https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/trefitheory.png) (tREFIx9=(tREFI+1)/1024)
+2) cr2>cr1 on bad 4 DIMM boards (even if you can run cr1 with “no problems”)
+3) 100:100 vs 100:133 in terms of mouse feeling/smoothness
+4) stability vs row hammer (prevention)/memory scrambler 
 
 
 ## **Links:**
@@ -289,7 +288,7 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 
 #### Papers/research:
 
-* https://cdn.discordapp.com/attachments/898074377407574018/1095863260537966642/DDR4_Spec_JESD79-4C.pdf (JEDEC)
+* https://github.com/KoTbelowall/INTEL-DDR4-RAM-OC-GUIDE-by-KoT/blob/main/stuff/DDR4_Spec_JESD79-4C.pdf (JEDEC)
 
 * https://research.ece.cmu.edu/safari/thesis/dlee_dissertation.pdf
 
@@ -305,9 +304,9 @@ what this means is that u do ( TEMPERATURE GAIN ) *  ( TEMPERATURE GAIN ) *  ( T
 
 * https://www.jedec.org/sites/default/files/JS_Choi_DDR4_miniWorkshop.pdf
 
-* https://cdn.discordapp.com/attachments/1075405865974243378/1085482975141036062/ieeetc65-1.pdf
+* https://user.eng.umd.edu/~blj/papers/ieeetc65-1.pdf
 
-* https://cdn.discordapp.com/attachments/1075405865974243378/1085487999107739658/mutlu_dram-refresh_extreme-scale-computing14.pdf
+* https://people.inf.ethz.ch/omutlu/pub/mutlu_dram-refresh_extreme-scale-computing14.pdf
 
 * https://www.micron.com/-/media/client/global/documents/products/technical-note/dram/tn4007_ddr4_power_calculation.pdf
 
